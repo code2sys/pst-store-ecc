@@ -43,3 +43,6 @@ attachments/*
 cronlock/*
 uploads/*
 html/storeimages/*
+html/custom.css
+html/custom.js
+html/BingSiteAuth.xml
