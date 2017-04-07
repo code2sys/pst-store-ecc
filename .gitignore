@@ -50,3 +50,7 @@ html/logo.png
 overrides/*
 branding/*
 
+craigslistFeed/*
+cycletraderFeed/*
+ebayFeeds/*
+googleFeed/*
