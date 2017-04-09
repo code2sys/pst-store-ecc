@@ -14,3 +14,4 @@ define('REPLY_TO_EMAIL', FROM_EMAIL_ADDRESS);
 define('REPLY_TO_NAME', 'noreply');
 define('STYLED_HOSTNAME', '');
 define('STORE_DIRECTORY', __DIR__);
+define('SEARCH_NOINDEX', true);
