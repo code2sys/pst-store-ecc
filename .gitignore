@@ -55,3 +55,17 @@ cycletraderFeed/*
 ebayFeeds/*
 googleFeed/*
 html/site.txt
+Checkout
+adminer.php
+application
+environment.php
+html/assets
+html/custom.css
+html/basebranding.css
+html/qatesting
+html/sitemap.xml
+lib
+qatesting_application
+simpleimage.php
+system
+vendor
