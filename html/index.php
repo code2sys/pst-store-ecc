@@ -50,12 +50,12 @@ if (defined('ENVIRONMENT'))
 }
 
 if (!defined('WEBSITE_HOSTNAME')) {
-	define('WEBSITE_HOSTNAME', 'www.motomonster.com');
+    die("Please define WEBSITE_HOSTNAME");
 }
 
-$system_path = __DIR__ . '/../system';
-$application_folder = __DIR__ . '/../application';
-define('LIBPATH', __DIR__ . "/../library");
+$system_path = CORE_DIRECTORY . '/system';
+$application_folder = CORE_DIRECTORY . '/application';
+define('LIBPATH', CORE_DIRECTORY . "/library");
 
 
 

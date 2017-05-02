@@ -6,5 +6,5 @@
 
 RewriteEngine On
 RewriteCond %{HTTP_REFERER} traffic-paradise.org [NC,OR]
-RewriteCond $1 !^(index\.php|public|assets|sitemap.xml|storeimages|BingSiteAuth.xml|images|media|qatesting|robots\.txt|site\.txt)
+RewriteCond $1 !^(index\.php|public|assets|sitemap.xml|storeimages|BingSiteAuth.xml|images|media|qatesting|robots\.txt|site\.txt|logo\.png)
 RewriteRule ^(.*)$ index.php?/$1 [L] 
