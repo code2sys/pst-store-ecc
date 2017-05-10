@@ -25,3 +25,12 @@ define('TOP_LEVEL_CAT_ATV_PARTS', 20419);
 define('TOP_LEVEL_CAT_UTV_PARTS', 20422);
 define('TOP_LEVEL_CAT_VTWIN_PARTS', 69597);
 define('TOP_LEVEL_CAT_DIRT_BIKES', 20416);
+
+// These are page IDs. They are referenced at the top of the controllers.
+define('TOP_LEVEL_PAGE_ID_VTWIN', 17);
+define('TOP_LEVEL_PAGE_ID_ATV', 2);
+define('TOP_LEVEL_PAGE_ID_DIRT', 1);
+define('TOP_LEVEL_PAGE_ID_STREET', 3);
+define('TOP_LEVEL_PAGE_ID_UTV', 4);
+define('TOP_LEVEL_PAGE_ID_HOME', 0);
+
