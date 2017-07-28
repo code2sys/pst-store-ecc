@@ -19,7 +19,7 @@
  */
 
 	require_once(__DIR__ . "/../environment.php");
-
+	require_once(CORE_DIRECTORY . "/vendor/autoload.php");
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
