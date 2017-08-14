@@ -69,3 +69,4 @@ qatesting_application
 simpleimage.php
 system
 vendor
+override_templates/*.html
