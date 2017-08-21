@@ -48,3 +48,6 @@ define('MOTORCYCLE_SHOP_USED', true);
 
 // this lets you disable this button, or not.
 define('ENABLE_OEMPARTS_BUTTON', false);
+
+// Enables the vault, or not.
+define('ENABLE_VAULT', false);
