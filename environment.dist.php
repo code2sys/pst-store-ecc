@@ -52,3 +52,6 @@ define('ENABLE_OEMPARTS_BUTTON', false);
 
 // Enables the vault, or not.
 define('ENABLE_VAULT', false);
+
+// Override wording, if you prefer, for the search
+define('SEARCH_PLACEHOLDER_WORDING', 'Search Parts and Apparel');
