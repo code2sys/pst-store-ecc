@@ -34,6 +34,7 @@ define('TOP_LEVEL_PAGE_ID_DIRT', 1);
 define('TOP_LEVEL_PAGE_ID_STREET', 3);
 define('TOP_LEVEL_PAGE_ID_UTV', 4);
 define('TOP_LEVEL_PAGE_ID_HOME', 0);
+define('TOP_LEVEL_PAGE_ID_VAULT', 19);
 
 
 // This disables all the motorcycle functionality and instead it just reverts to a parts store.
