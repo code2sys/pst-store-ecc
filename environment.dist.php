@@ -48,3 +48,6 @@ define('MOTORCYCLE_SHOP_USED', true);
 
 // this lets you disable this button, or not.
 define('ENABLE_OEMPARTS_BUTTON', false);
+
+// Override wording, if you prefer, for the search
+define('SEARCH_PLACEHOLDER_WORDING', 'Search Parts and Apparel');
