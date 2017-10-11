@@ -36,6 +36,7 @@ define('TOP_LEVEL_PAGE_ID_STREET', 3);
 define('TOP_LEVEL_PAGE_ID_UTV', 4);
 define('TOP_LEVEL_PAGE_ID_HOME', 0);
 define('TOP_LEVEL_PAGE_ID_MARINE', 0);
+define('TOP_LEVEL_PAGE_ID_VAULT', 19);
 
 
 // This disables all the motorcycle functionality and instead it just reverts to a parts store.
@@ -50,6 +51,9 @@ define('MOTORCYCLE_SHOP_USED', true);
 
 // this lets you disable this button, or not.
 define('ENABLE_OEMPARTS_BUTTON', false);
+
+// Enables the vault, or not.
+define('ENABLE_VAULT', false);
 
 // Override wording, if you prefer, for the search
 define('SEARCH_PLACEHOLDER_WORDING', 'Search Parts and Apparel');
