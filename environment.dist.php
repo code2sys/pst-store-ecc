@@ -21,6 +21,7 @@ define('STORE_BANNER_LIBRARY', __DIR__.'/html/bannerlibrary');
 
 // These are top level category numbers.
 // They were factored out of the code. The defaults are probably correct except for VTwin
+// Remember, when you add one here, be sure to add it in the master_v_new.php, too.
 define('TOP_LEVEL_CAT_STREET_BIKES', 20409);
 define('TOP_LEVEL_CAT_ATV_PARTS', 20419);
 define('TOP_LEVEL_CAT_UTV_PARTS', 20422);
@@ -57,3 +58,4 @@ define('ENABLE_VAULT', false);
 
 // Override wording, if you prefer, for the search
 define('SEARCH_PLACEHOLDER_WORDING', 'Search Parts and Apparel');
+define('GET_FINANCING_WORDING', 'GET FINANCING');
