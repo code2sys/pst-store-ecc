@@ -59,3 +59,6 @@ define('ENABLE_VAULT', false);
 // Override wording, if you prefer, for the search
 define('SEARCH_PLACEHOLDER_WORDING', 'Search Parts and Apparel');
 define('GET_FINANCING_WORDING', 'GET FINANCING');
+
+// Enables lightspeed integration....
+define('ENABLE_LIGHTSPEED', false);
