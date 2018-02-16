@@ -51,7 +51,7 @@ define('DISABLE_FRONT_MOTORCYCLE_NAV', false);
 define('MOTORCYCLE_SHOP_USED', true);
 
 // this lets you disable this button, or not.
-define('ENABLE_OEMPARTS_BUTTON', false);
+define('ENABLE_OEMPARTS_BUTTON', true);
 
 // Enables the vault, or not.
 define('ENABLE_VAULT', false);
@@ -62,3 +62,22 @@ define('GET_FINANCING_WORDING', 'GET FINANCING');
 
 // Enables lightspeed integration....
 define('ENABLE_LIGHTSPEED', false);
+
+// Disables the test drive option...
+define('DISABLE_TEST_DRIVE', false);
+
+global $LightspeedSupplierLookAside;
+$LightspeedSupplierLookAside = array(
+    "BEL" => "Bell Helmets",
+    "HH" => "Helmet House",
+    "ONE" => "One Industries",
+    "SB" => "Sullivans",
+    "TR" => "Tucker Rocky",
+    "WP" => "Western Power Sports"
+);
+
+// Accommodations for Team
+define('SIMPLIFIED_NAV_WITHIN_MAJOR_UNITS', false);
+
+// Switch the home view..
+define('HOMEPAGE_VIEW', 'master/master_v_front'); // there is also a master_v_bikefront
