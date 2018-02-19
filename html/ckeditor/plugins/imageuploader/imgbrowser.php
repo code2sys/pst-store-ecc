@@ -36,11 +36,11 @@ require(__DIR__ . '/function.php');
 // Including the check_permission file, don't delete the following row!
 require(__DIR__ . '/check_permission.php');
 
-if (!array_key_exists("adminuser", $_SESSION) || $_SESSION["adminuser"] != 0 || !array_key_exists("ckeditor_session", $_SESSION) || $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
-    print_r($_SESSION);
-    print "Session " . $_SESSION["adminuser"] . "<br/>\n";
-    print "ckeditor_session " . $_SESSION["ckeditor_session"] . "<br/> \n";
-    exit();
+if (
+        !array_key_exists("adminuser", $_SESSION) ||
+        $_SESSION["adminuser"] == 0 ||
+        !array_key_exists("ckeditor_session", $_SESSION) ||
+        $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
     header("Location: /admin");
     exit();
 }
