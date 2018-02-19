@@ -42,7 +42,7 @@ if (
     $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
     header("Location: /admin");
     exit();
-} elseif(isset($_SESSION['username'])){
+} else {
 
     $imgName = filter_input(INPUT_GET, 'img', FILTER_SANITIZE_STRING);
     $imgSrc = $useruploadpath.$imgName;
