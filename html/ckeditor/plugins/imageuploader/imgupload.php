@@ -5,8 +5,13 @@
 
 session_start();
 
-if(!isset($_SESSION['username'])) {
-    exit;
+if (
+    !array_key_exists("adminuser", $_SESSION) ||
+    $_SESSION["adminuser"] == 0 ||
+    !array_key_exists("ckeditor_session", $_SESSION) ||
+    $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
+    header("Location: /admin");
+    exit();
 }
 
 // checking lang value

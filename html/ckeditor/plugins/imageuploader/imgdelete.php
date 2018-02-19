@@ -35,7 +35,14 @@ require(__DIR__ . '/pluginconfig.php');
 
 <?php
 
-if(isset($_SESSION['username'])){
+if (
+    !array_key_exists("adminuser", $_SESSION) ||
+    $_SESSION["adminuser"] == 0 ||
+    !array_key_exists("ckeditor_session", $_SESSION) ||
+    $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
+    header("Location: /admin");
+    exit();
+} elseif(isset($_SESSION['username'])){
 
     $imgName = filter_input(INPUT_GET, 'img', FILTER_SANITIZE_STRING);
     $imgSrc = $useruploadpath.$imgName;
