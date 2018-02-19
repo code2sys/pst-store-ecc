@@ -1,4 +1,8 @@
 <?php
+if(!isset($_COOKIE['sy_lang'])) {
+    $_COOKIE['sy_lang'] = "en";
+}
+
 // checking lang value
 if(isset($_COOKIE['sy_lang'])) {
     $load_lang_code = $_COOKIE['sy_lang'];
