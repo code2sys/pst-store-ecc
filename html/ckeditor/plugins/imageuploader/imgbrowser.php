@@ -206,15 +206,7 @@ if (
         <?php } ?>
         <!--change language-->
         <p class="uploadP" onclick="openLangPanel();"><img src="img/cd-icon-translate.png" class="headerIcon"> <?php echo $panelsettings20; ?></p>
-
-<!--        <!--show if password is enabled-->-->
-<!--        --><?php //if($_SESSION["username"] != "disabled_pw"){ ?>
-<!--            <br><h3 class="settingsh3">--><?php //echo $panelsettings7; ?><!--</h3>-->
-<!--            <!--logout-->-->
-<!--            <p class="uploadP" onclick="logOut();"><img src="img/cd-icon-logout.png" class="headerIcon"> --><?php //echo $panelsettings8; ?><!--</p>-->
-<!--            <!--disable password-->-->
-<!--            <p class="uploadP" onclick="window.open('http://imageuploaderforckeditor.altervista.org/disable_pw.html','about:blank', 'toolbar=no, scrollbars=yes, resizable=no, width=900, height=600');"><img src="img/cd-icon-disable.png" class="headerIcon"> --><?php //echo $panelsettings9; ?><!--</p>-->
-<!--        --><?php //} ?>
+        
 
         <br><h3 class="settingsh3"><?php echo $panelsettings10; ?></h3>
         <!--donate button-->
