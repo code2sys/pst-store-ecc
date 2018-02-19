@@ -21,7 +21,14 @@ if(isset($_POST["newpath"]) or isset($_POST["extension"]) or isset($_GET["file_s
     session_start();
 }
 
-if(isset($_SESSION['username'])){
+if (
+    !array_key_exists("adminuser", $_SESSION) ||
+    $_SESSION["adminuser"] == 0 ||
+    !array_key_exists("ckeditor_session", $_SESSION) ||
+    $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
+    header("Location: /admin");
+    exit();
+} else {
     
     if(isset($_POST["newpath"])){
         $newpath = filter_input(INPUT_POST, 'newpath', FILTER_SANITIZE_STRING);
