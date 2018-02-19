@@ -37,6 +37,8 @@ require(__DIR__ . '/function.php');
 require(__DIR__ . '/check_permission.php');
 
 if (!array_key_exists("adminuser", $_SESSION) || $_SESSION["adminuser"] != 0 || !array_key_exists("ckeditor_session", $_SESSION) || $_SESSION["ckeditor_session"] != "345u3guiohjgktru") {
+    print_r($_SESSION);
+    exit();
     header("Location: /admin");
     exit();
 }
