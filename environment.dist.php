@@ -81,3 +81,7 @@ define('SIMPLIFIED_NAV_WITHIN_MAJOR_UNITS', false);
 
 // Switch the home view..
 define('HOMEPAGE_VIEW', 'master/master_v_front'); // there is also a master_v_bikefront
+
+// Enable the Motorcycle Dealer feed
+define('ENABLE_MD_FEED', false);
+
