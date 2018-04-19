@@ -24,6 +24,5 @@ print <<<HERE
 <SourceProspectId>$source_id</SourceProspectId>
 <PCHId>$output_id</PCHId>
 </Prospect>
-<Prospect>
 </AddProspectResults>
 HERE;
