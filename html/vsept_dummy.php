@@ -10,7 +10,6 @@
 // Extract the ID field
 // Push something back, so we know it's done...
 $postdata = file_get_contents("php://input");
-file_put_contents("/tmp/postdata", $postdata);
 
 $results = simplexml_load_string($postdata);
 $source_id = $results->Item->SourceProspectId;
