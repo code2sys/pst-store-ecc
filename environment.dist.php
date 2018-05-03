@@ -62,3 +62,6 @@ define('GET_FINANCING_WORDING', 'GET FINANCING');
 
 // Enables lightspeed integration....
 define('ENABLE_LIGHTSPEED', false);
+
+// disable the pricing rules by default
+define('ENABLE_CUSTOMER_PRICING', false);
