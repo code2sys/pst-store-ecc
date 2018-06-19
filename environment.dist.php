@@ -85,3 +85,5 @@ define('HOMEPAGE_VIEW', 'master/master_v_front'); // there is also a master_v_bi
 // Enable the Motorcycle Dealer feed
 define('ENABLE_MD_FEED', false);
 
+// disable the pricing rules by default
+define('ENABLE_CUSTOMER_PRICING', false);
