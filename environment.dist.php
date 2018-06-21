@@ -87,3 +87,6 @@ define('ENABLE_MD_FEED', false);
 
 // disable the pricing rules by default
 define('ENABLE_CUSTOMER_PRICING', false);
+
+// define the recaptcha key
+define('RECAPTCHA_KEY', '6LdtHWAUAAAAAJ9M6TSwI-379w0I_gb7KN9LlTFQ');
